@@ -1,0 +1,519 @@
+═══════════════════════════════════════════════════════════════════
+          Universal RSVP Platform – Kullanım Kılavuzu
+═══════════════════════════════════════════════════════════════════
+
+Hoş Geldiniz!
+
+Universal RSVP Platform, her tür etkinlik için profesyonel davetiye ve 
+RSVP yönetimi sunan modern bir web uygulamasıdır. Bu kılavuz, hem event 
+sahipleri (Host) hem de davetliler (Guest) için platformun tüm özelliklerini 
+detaylı şekilde açıklamaktadır.
+
+───────────────────────────────────────────────────────────────────
+
+İÇİNDEKİLER
+
+1.  Platforma Genel Bakış
+2.  Hızlı Başlangıç Rehberi
+3.  Yeni Event Oluşturma
+4.  RSVP Linkini Paylaşma
+5.  Dashboard'a Erişim ve Güvenlik
+6.  Event Düzenleme
+7.  Guest Responses Yönetimi
+8.  QR Kod Kullanımı
+9.  Misafir Listesi Export (CSV)
+10. "Add to Calendar" Özelliği
+11. Desktop ve Mobil Kullanım
+12. Davetli Rehberi
+13. Dark / Light Mode
+14. Sıkça Sorulan Sorular (SSS)
+15. Gizlilik ve Güvenlik
+16. Destek ve İletişim
+
+═══════════════════════════════════════════════════════════════════
+
+1. PLATFORMA GENEL BAKIŞ
+
+Universal RSVP Platform, kullanıcı kaydı veya karmaşık ayarlar 
+gerektirmeden etkinlik oluşturmanızı ve davetli yanıtlarını tek bir 
+panelden yönetmenizi sağlar.
+
+✨ Öne Çıkan Özellikler
+
+✓ Sınırsız event oluşturma
+✓ Event düzenleme özelliği (tarih, konum, fotoğraf değiştirme)
+✓ Benzersiz ve güvenli RSVP linkleri
+✓ Gerçek zamanlı desktop-optimized dashboard
+✓ Mobil uyumlu responsive tasarım
+✓ Guest message görüntüleme
+✓ Takvime ekleme özelliği
+✓ QR kod oluşturma
+✓ CSV export
+✓ Dark / Light mode
+✓ Session-based güvenlik sistemi
+
+───────────────────────────────────────────────────────────────────
+
+2. HIZLI BAŞLANGIÇ REHBERİ
+
+1. Ana sayfadan "Create New Event" sekmesine gidin
+2. Event bilgilerini doldurun (ad, tarih, lokasyon, vb.)
+3. İsterseniz RSVP formunu önizleyin
+4. "Create Event" ile eventi oluşturun
+5. RSVP linkini misafirlerinizle paylaşın
+6. Dashboard'tan yanıtları gerçek zamanlı takip edin
+7. İhtiyaç halinde "Edit Event" ile event bilgilerini güncelleyin
+
+⏱️ Ortalama Süre: 3-5 dakika
+
+───────────────────────────────────────────────────────────────────
+
+3. YENİ EVENT OLUŞTURMA
+
+"Create New Event" sekmesinde aşağıdaki bilgileri doldurun:
+
+📝 Zorunlu Alanlar
+
+• Event Type: Düğün, Doğum Günü, İş Etkinliği, vb.
+• Event Name: Etkinlik adı
+• Event Date & Time: Tarih ve saat
+• Location: Mekan adresi
+• Host Name: Organizatör adı
+• Host Email: Organizatör e-postası (Dashboard erişimi için)
+
+🎨 Opsiyonel Alanlar
+
+• Location URL: Google Maps linki
+• Cover Image: Kapak görseli (max 4MB)
+• Dress Code: Kıyafet önerisi
+• Program / Notes: Program veya özel notlar
+
+💡 İpuçları:
+
+→ Host email'i mutlaka aktif bir adres olmalı (Dashboard erişimi için)
+→ Location URL eklerseniz davetliler tek tıkla haritaya ulaşır
+→ Cover image etkinliğinizi daha görsel ve profesyonel yapar
+→ "Preview RSVP Form" ile göndermeden önce kontrol edin
+
+Event oluşturulduktan sonra otomatik olarak Dashboard'a 
+yönlendirilirsiniz.
+
+───────────────────────────────────────────────────────────────────
+
+4. RSVP LİNKİNİ PAYLAŞMA
+
+Her event için benzersiz bir RSVP linki oluşturulur:
+📎 Örnek: https://yoursite.com/rsvp/[unique-slug]
+
+🚀 Paylaşım Kanalları
+
+• E-posta ile toplu gönderim
+• WhatsApp / SMS
+• Sosyal medya (Instagram, Facebook, Twitter)
+• Dijital davetiyeler
+• Basılı davetiyelerde QR kod ile
+
+📋 Dashboard'daki "Copy Invitation Link" butonu ile linki 
+kopyalayabilirsiniz.
+
+🔒 Güvenlik Notu: Bu linke sahip olan herkes RSVP gönderebilir. 
+Sadece davetlilerinizle paylaşın.
+
+───────────────────────────────────────────────────────────────────
+
+5. DASHBOARD'A ERİŞİM VE GÜVENLİK
+
+🔐 Güvenli Oturum Sistemi
+
+Dashboard artık session-based (oturum tabanlı) bir güvenlik sistemi 
+kullanır. Email adresiniz URL'de görünmez, tamamen güvenli bir şekilde 
+cookie'lerde saklanır.
+
+🚪 Dashboard'a Giriş Yöntemleri
+
+1️⃣ Otomatik Yönlendirme
+   Event oluşturduktan sonra otomatik olarak Dashboard'a 
+   yönlendirilirsiniz.
+
+2️⃣ Manuel Giriş
+   Ana sayfadaki "Host Login" sekmesinden:
+   • Event slug'ını (URL'deki benzersiz kod) girin
+   • Host email'inizi girin
+   • "Access Dashboard" ile giriş yapın
+
+✅ Başarılı giriş sonrası 24 saat boyunca oturumunuz açık kalır.
+
+⚠️ Önemli: Dashboard URL'nizi ve host email'inizi kaydedin. 
+Bu bilgiler event'inize erişim için gereklidir.
+
+───────────────────────────────────────────────────────────────────
+
+6. EVENT DÜZENLEME
+
+Event oluşturduktan sonra bilgilerinizi değiştirebilirsiniz.
+
+📝 Düzenleme Adımları
+
+Adım 1: Dashboard'a Giriş
+• Dashboard sayfasında sağ üstteki "Edit Event" butonuna tıklayın
+
+Adım 2: E-posta Doğrulama
+• Güvenlik için host email adresinizi girmeniz istenir
+• Doğru email'i girdikten sonra düzenleme formuna erişirsiniz
+
+Adım 3: Düzenleme
+• İstediğiniz alanları değiştirin
+• "Update Event" ile kaydedin
+
+✏️ Düzenleyebileceğiniz Bilgiler
+
+✓ Event Type
+✓ Event Name
+✓ Event Date & Time
+✓ Location & Location URL
+✓ Cover Image (yeni fotoğraf yüklenebilir)
+✓ Dress Code
+✓ Program / Notes
+
+❌ Düzenlenemeyen Bilgiler (Güvenlik nedeniyle)
+
+• Host Name
+• Host Email
+
+🔄 Düzenleme Sonrası
+
+• Değişiklikler anında yansır
+• RSVP linkiniz değişmez
+• Mevcut RSVP yanıtları korunur
+• Davetliler güncel bilgileri görür
+• QR kod aynı kalır
+
+───────────────────────────────────────────────────────────────────
+
+7. GUEST RESPONSES YÖNETİMİ
+
+Dashboard üzerinden tüm RSVP yanıtlarını görüntüleyebilirsiniz.
+
+📊 İstatistikler (Üst Kartlar)
+
+✓ Total Responses: Toplam yanıt sayısı
+✓ Attending: Katılacak misafir sayısı
+✓ Not Attending: Katılmayacak misafir sayısı
+✓ Total Guests: Toplam kişi sayısı (+ ek misafirler dahil)
+
+📋 Guest Responses Tablosu
+
+Tablo Kolonları:
+• Name: Misafir adı
+• Status: Attending / Not Attending
+• Guests: Misafir sayısı (kendisi dahil)
+• Contact: Email ve telefon bilgisi
+• Message: Misafir mesajı
+• Submitted: RSVP gönderim tarihi
+• Actions: RSVP silme butonu
+
+💬 Mesaj Görüntüleme
+
+• Uzun mesajlar ilk 50 karakterde kesilir
+• "Daha fazla" butonu ile tam mesaj popup'da açılır
+• Popup içinde uzun metinler düzgün şekilde kırılır ve scroll alınabilir
+
+🗑️ RSVP Silme
+
+Her satırda bulunan çöp kutusu ikonu ile istenmeyen RSVP'ler 
+silinebilir. İstatistikler otomatik güncellenir.
+
+───────────────────────────────────────────────────────────────────
+
+8. QR KOD KULLANIMI
+
+Her event için otomatik bir QR kod oluşturulur.
+
+📱 QR Kod ile RSVP
+
+• Misafirler telefon kamerası ile QR'ı tarar
+• Otomatik olarak RSVP formuna yönlendirilir
+• Hızlı ve pratik erişim
+
+💾 QR Kodu İndirme
+
+Dashboard'daki "View QR Code" butonu ile:
+• QR kodu görüntüleyin
+• PNG formatında indirin
+• Basılı veya dijital davetiyelerde kullanın
+
+🎯 Kullanım Alanları
+
+• Basılı davetiyelere ekleme
+• Dijital posterlerde gösterme
+• Mekan girişinde kullanma
+• Sosyal medya gönderilerinde paylaşma
+
+───────────────────────────────────────────────────────────────────
+
+9. MİSAFİR LİSTESİ EXPORT (CSV)
+
+Tüm RSVP verilerini CSV formatında indirebilirsiniz.
+
+📥 Export Adımları
+
+1. Dashboard'da "Export Guest List" butonuna tıklayın
+2. CSV dosyası otomatik olarak indirilir
+3. Excel, Google Sheets veya Numbers ile açın
+
+📊 CSV İçeriği
+
+• Name (Ad)
+• Status (Katılım durumu)
+• Guests (Misafir sayısı)
+• Email (E-posta)
+• Phone (Telefon)
+• Dietary Restrictions (Diyet notları)
+• Message (Mesaj)
+• Submitted At (RSVP tarihi)
+
+💼 Kullanım Alanları
+
+• Masa planı hazırlama
+• Yemek siparişi verme
+• İstatistiksel analiz
+• Misafir takibi
+
+───────────────────────────────────────────────────────────────────
+
+10. "ADD TO CALENDAR" ÖZELLİĞİ
+
+RSVP formunda "Date & Time" başlığının yanında "Add to Calendar" 
+butonu bulunur.
+
+📅 Nasıl Çalışır?
+
+1. Davetli butona tıklar
+2. .ics dosyası otomatik indirilir
+3. Dosya tüm takvim uygulamalarıyla uyumludur
+
+✅ Desteklenen Platformlar
+
+• iOS Calendar
+• Google Calendar
+• Outlook Calendar
+• Apple Calendar (macOS)
+• Android varsayılan takvim
+• Diğer tüm .ics uyumlu uygulamalar
+
+⏰ Otomatik Eklenen Bilgiler
+
+• Event adı
+• Tarih ve saat
+• Lokasyon bilgisi
+• 1 saat önceden hatırlatıcı/alarm
+
+Bu özellik sayesinde davetlileriniz etkinliği asla unutmaz!
+
+───────────────────────────────────────────────────────────────────
+
+11. DESKTOP VE MOBİL KULLANIM
+
+🖥️ Desktop Dashboard (Önerilen)
+
+Dashboard, desktop kullanımı için özel olarak optimize edilmiştir:
+
+• Tek ekranda tüm bilgiler görünür
+• Minimal scroll, maksimum verimlilik
+• Sol tarafta Guest Responses tablosu
+• Sağ tarafta Quick Actions ve event görseli
+• Üstte stats kartları
+
+Responsive düzen sayesinde %100 zoom'da tüm içerik tek sayfaya sığar.
+
+📱 Mobil Dashboard
+
+Mobil cihazlarda dashboard:
+
+• Dikey scroll ile çalışır
+• Kartlar alt alta dizilir
+• Stats kartları 2 sütuna düşer
+• Guest Responses tablosu horizontal scroll alır
+• Header butonları responsive olarak yeniden düzenlenir
+
+✅ Tüm özellikler hem desktop hem mobilde tam olarak çalışır.
+
+───────────────────────────────────────────────────────────────────
+
+12. DAVETLİ REHBERİ (GUEST GUIDE)
+
+Davetliler RSVP linkine tıkladığında izole bir RSVP sayfası görürler.
+
+📝 RSVP Form Alanları
+
+Zorunlu Alanlar:
+• Full Name (Ad Soyad)
+• RSVP Status (Attending / Not Attending)
+• Number of Guests (Misafir sayısı, kendisi dahil)
+• Email Address
+
+Opsiyonel Alanlar:
+• Phone Number
+• Dietary Restrictions / Notes (Diyet notları)
+• Message to Host (Organizatöre mesaj)
+
+✅ Form Gönderimi
+
+"Submit RSVP" butonuna tıkladıktan sonra:
+• Başarı mesajı gösterilir
+• Yanıt anında Dashboard'a yansır
+• Davetli bir konfirmasyon mesajı görür
+
+🔒 Güvenlik
+
+• Davetliler sadece RSVP formunu görür
+• Ana siteye veya dashboard'a erişemezler
+• Her link izole bir sayfa açar
+
+───────────────────────────────────────────────────────────────────
+
+13. DARK / LIGHT MODE
+
+Sağ üst köşedeki tema butonu (🌙 / ☀️) ile aydınlık ve karanlık mod 
+arasında geçiş yapabilirsiniz.
+
+🎨 Tema Özellikleri
+
+✓ Tema tercihi tarayıcıda kaydedilir
+✓ Tüm sayfalarda (ana sayfa, RSVP, dashboard) geçerlidir
+✓ Göz yorgunluğunu azaltır
+✓ Düşük ışık ortamlarında konforlu kullanım
+
+Tema değişimi anında uygulanır ve yeniden yükleme gerektirmez.
+
+───────────────────────────────────────────────────────────────────
+
+14. SIKÇA SORULAN SORULAR (SSS)
+
+❓ Event oluşturduktan sonra düzenleme yapabilir miyim?
+✅ Evet. Dashboard'dan "Edit Event" butonuna tıklayarak tarih, 
+   lokasyon, fotoğraf ve diğer bilgileri düzenleyebilirsiniz.
+
+❓ Aynı e-posta ile birden fazla event oluşturabilir miyim?
+✅ Evet. Aynı email ile sınırsız sayıda event oluşturabilirsiniz.
+
+❓ Dashboard URL'si güvenli mi?
+✅ Evet. Session-based güvenlik sistemi kullanılır. Email adresiniz 
+   URL'de görünmez, cookie'lerde güvenli şekilde saklanır.
+
+❓ RSVP linki süresi dolar mı?
+✅ Hayır. Linkler kalıcıdır ve süresiz geçerlidir.
+
+❓ Event'i düzenleyince RSVP linkim değişir mi?
+✅ Hayır. RSVP linkiniz ve QR kodunuz aynı kalır, sadece içerik güncellenir.
+
+❓ Mevcut RSVP yanıtları düzenleme sonrası kaybolur mu?
+✅ Hayır. Tüm RSVP yanıtları korunur.
+
+❓ Kaç davetli ekleyebilirim?
+✅ Sınırsız. Platform RSVP limiti yoktur.
+
+❓ Fotoğraf yükleyebilir miyim?
+✅ Evet. Event oluştururken ve düzenlerken cover image yükleyebilirsiniz 
+   (maksimum 4MB).
+
+❓ CSV dosyasında hangi bilgiler yer alır?
+✅ İsim, email, telefon, katılım durumu, misafir sayısı, diyet notları, 
+   mesajlar ve RSVP tarihi.
+
+❓ Platform mobil uyumlu mu?
+✅ Evet. Tüm sayfalar (ana sayfa, RSVP formu, dashboard) mobil ve tablet 
+   cihazlara tam olarak optimize edilmiştir.
+
+❓ Dashboard'a ne kadar süre erişebilirim?
+✅ Giriş yaptıktan sonra 24 saat boyunca oturumunuz açık kalır. 
+   Sonrasında tekrar giriş yapmanız gerekir.
+
+❓ Guest mesajları nasıl görüntülenir?
+✅ Dashboard'daki Guest Responses tablosunda Message kolonunda 
+   görüntülenir. Uzun mesajlar için "Daha fazla" butonuna tıklayarak 
+   tam mesajı popup'da okuyabilirsiniz.
+
+❓ "Add to Calendar" özelliği nasıl çalışır?
+✅ RSVP formundaki "Add to Calendar" butonu .ics dosyası oluşturur. 
+   Bu dosya tüm takvim uygulamalarıyla (iOS, Google, Outlook) uyumludur.
+
+❓ Event'i silebilir miyim?
+⏳ Event silme özelliği yakında eklenecek. Şu an sadece düzenleme 
+   destekleniyor.
+
+───────────────────────────────────────────────────────────────────
+
+15. GİZLİLİK VE GÜVENLİK
+
+🔒 Güvenlik Önlemleri
+
+✓ Session-based authentication sistemi
+✓ Email adresleri URL'de görünmez
+✓ HTTP-only cookie'ler kullanılır
+✓ 24 saatlik oturum süresi
+✓ Şifre saklanmaz (email verification)
+✓ RSVP verileri sadece event sahibine aittir
+✓ Üçüncü taraflarla veri paylaşımı yok
+✓ Güvenli fotoğraf yükleme (Vercel Blob)
+✓ E-posta doğrulama ile edit koruması
+
+🛡️ Güvenlik İpuçları
+
+• Dashboard URL'nizi kimseyle paylaşmayın
+• Host email'inizi güvende tutun
+• RSVP linkini sadece davetlilerinizle paylaşın
+• 24 saat sonra yeniden giriş yapmayı unutmayın
+
+📜 Veri Saklama
+
+• Event verileri güvenli sunucularda saklanır
+• RSVP yanıtları şifrelenir
+• Fotoğraflar CDN üzerinden güvenli şekilde sunulur
+• Kişisel bilgiler üçüncü taraflarla paylaşılmaz
+
+───────────────────────────────────────────────────────────────────
+
+16. DESTEK VE İLETİŞİM
+
+Herhangi bir sorunuz veya öneriniz için bizimle iletişime geçin:
+
+📧 Destek Kanalları
+
+🛒 Mağaza: https://www.etsy.com/shop/FlorMontana
+💌 Geri Bildirim: feedback@flormontana.com
+🔧 Teknik Destek: support@flormontana.com
+
+⏰ Destek Saatleri
+
+Pazartesi - Cuma: 09:00 - 18:00 (GMT+3)
+Cumartesi: 10:00 - 16:00 (GMT+3)
+Pazar: Kapalı
+
+⚡ Yanıt Süresi
+
+• Acil teknik sorunlar: 6-12 saat
+• Genel sorular: 24-48 saat
+• Geri bildirimler: 48-72 saat
+
+📝 Destek Talebi Gönderirken Belirtin
+
+• Event slug'ınızı (URL'deki benzersiz kod)
+• Sorunun detaylı açıklaması
+• Ekran görüntüleri (varsa)
+• Hangi cihaz/tarayıcı kullandığınız
+
+═══════════════════════════════════════════════════════════════════
+
+🎉 Universal RSVP Platform ile unutulmaz etkinlikler oluşturun!
+
+───────────────────────────────────────────────────────────────────
+
+📅 Son Güncelleme: Ocak 2026
+📌 Versiyon: 3.0
+🚀 Yeni Özellikler: Event Editing, Session-based Security, 
+                   Add to Calendar, Desktop-optimized Dashboard,
+                   Mobile Responsive Design, Guest Message Viewing,
+                   CSV Export, QR Codes
+
+═══════════════════════════════════════════════════════════════════

@@ -1,0 +1,173 @@
+═══════════════════════════════════════════════════════════════
+    UNIVERSAL RSVP PLATFORM – YARDIM MERKEZİ
+═══════════════════════════════════════════════════════════════
+
+Tüm etkinlik türleri için profesyonel davetiye ve RSVP yönetimi sunan 
+modern bir web uygulaması.
+
+───────────────────────────────────────────────────────────────
+
+🚀 HIZLI BAŞLANGIÇ
+
+• "Yeni Etkinlik Oluştur" sekmesinden etkinlik detaylarını doldurun
+• "Etkinlik Oluştur" ile etkinliğinizi oluşturun
+• RSVP linkini misafirlerinizle paylaşın
+• Dashboard'dan yanıtları gerçek zamanlı takip edin
+
+───────────────────────────────────────────────────────────────
+
+📝 ETKİNLİK OLUŞTURMA
+
+Zorunlu Alanlar:
+• Etkinlik Türü (Düğün, Doğum Günü, İş Etkinliği vb.)
+• Etkinlik Adı
+• Etkinlik Tarihi ve Saati
+• Konum
+• Ev Sahibi Adı
+• Ev Sahibi E-postası (Dashboard erişimi için gerekli)
+
+Opsiyonel Alanlar:
+• Konum URL'si (Google Maps linki)
+• Kapak Görseli (max 4MB)
+• Kıyafet Kodu
+• Program / Notlar
+
+💡 İpucu: Ev sahibi e-postası aktif bir adres olmalıdır. Bu bilgi 
+Dashboard erişimi için gereklidir.
+
+───────────────────────────────────────────────────────────────
+
+🔗 RSVP LİNKİNİ PAYLAŞMA
+
+Her etkinlik için benzersiz bir RSVP linki oluşturulur.
+
+Dashboard'daki "Davetiye Linkini Kopyala" butonunu kullanarak 
+linki kopyalayın ve WhatsApp, e-posta veya sosyal medya 
+üzerinden paylaşın.
+
+⚠️ DİKKAT: Bu linke sahip olan herkes RSVP gönderebilir. 
+Sadece davet ettiğiniz kişilerle paylaşın.
+
+───────────────────────────────────────────────────────────────
+
+🔐 DASHBOARD'A ERİŞİM
+
+1. Otomatik: Etkinlik oluşturduktan sonra otomatik olarak 
+   yönlendirileceksiniz
+
+2. Manuel: "Ev Sahibi Girişi" sekmesinden e-postanızla 
+   giriş yapın
+
+💡 Oturumunuz 24 saat aktif kalır.
+
+───────────────────────────────────────────────────────────────
+
+✏️ ETKİNLİĞİ DÜZENLEME
+
+Dashboard'daki "Etkinliği Düzenle" butonuna tıklayın, 
+e-postanızı doğrulayın ve istediğiniz bilgileri değiştirin.
+
+Düzenlenebilir Bilgiler:
+• Etkinlik Türü, Adı, Tarihi ve Saati
+• Konum ve Konum URL'si
+• Kapak Görseli
+• Kıyafet Kodu, Program / Notlar
+
+Düzenlenemez Bilgiler:
+• Ev Sahibi Adı, Ev Sahibi E-postası (güvenlik nedeniyle)
+
+💡 Değişiklikler anında yansır, RSVP linkiniz aynı kalır ve 
+mevcut yanıtlar korunur.
+
+───────────────────────────────────────────────────────────────
+
+👥 MİSAFİR YANITLARINI YÖNETİMİ
+
+Dashboard'da tüm RSVP yanıtlarını görüntüleyin:
+
+İstatistikler:
+• Toplam Yanıt
+• Katılacak / Katılmayacak
+• Toplam Misafir Sayısı (ek misafirler dahil)
+
+Misafir Yanıtları Tablosu:
+• İsim, Durum, Misafir Sayısı
+• İletişim (E-posta ve Telefon)
+• Mesaj (uzun mesajlar için "Daha fazla" butonu)
+• Gönderilme Tarihi
+• İşlemler (silme butonu)
+
+───────────────────────────────────────────────────────────────
+
+QR KOD
+
+Dashboard'daki "QR Kod Görüntüle" butonunu kullanarak 
+QR kodu görüntüleyin ve PNG formatında indirin. Basılı veya 
+dijital davetiyelerinizde kullanabilirsiniz.
+
+Misafirler telefon kameralarıyla QR kodu tarayarak doğrudan 
+RSVP formuna erişebilirler.
+
+───────────────────────────────────────────────────────────────
+
+MİSAFİR LİSTESİ DIŞA AKTARIMI
+
+"Misafir Listesini Dışa Aktar" butonunu kullanarak tüm RSVP 
+verilerini CSV formatında indirin. Excel veya Google Sheets 
+ile açabilirsiniz.
+
+CSV İçeriği: İsim, Durum, Misafir Sayısı, E-posta, Telefon, 
+Diyet Kısıtlamaları, Mesaj, Gönderilme Zamanı
+
+───────────────────────────────────────────────────────────────
+
+TAKVİME EKLE
+
+RSVP formundaki "Takvime Ekle" butonu misafirler için bir 
+.ics dosyası oluşturur. Bu dosya iOS, Google Takvim, Outlook 
+ve tüm takvim uygulamalarıyla uyumludur.
+
+Etkinlik adı, tarihi, saati, konumu ve 1 saatlik hatırlatıcıyı 
+otomatik olarak ekler.
+
+───────────────────────────────────────────────────────────────
+
+TEMA DEĞİŞTİRİCİ
+
+Sağ üst köşedeki tema butonu ile açık ve koyu mod arasında 
+geçiş yapın. Tema tercihiniz tarayıcınızda kaydedilir.
+
+───────────────────────────────────────────────────────────────
+
+❓ SIK SORULAN SORULAR
+
+S: Etkinliğimi düzenleyebilir miyim?
+C: Evet, "Etkinliği Düzenle" ile tarihi, konumu, fotoğrafı ve 
+   daha fazlasını değiştirebilirsiniz.
+
+S: Aynı e-posta ile birden fazla etkinlik oluşturabilir miyim?
+C: Evet, sınırsız etkinlik oluşturabilirsiniz.
+
+S: RSVP linki değişir mi?
+C: Hayır, düzenleme sonrasında link ve QR kod aynı kalır.
+
+S: Kaç misafir davet edebilirim?
+C: Sınırsız, platformun RSVP limiti yoktur.
+
+S: Dashboard'a ne kadar süre erişebilirim?
+C: Oturumunuz 24 saat aktif kalır.
+
+───────────────────────────────────────────────────────────────
+
+📧 DESTEK
+
+Teknik Destek:
+sahinturkzehra@gmail.com
+
+Mağaza:
+https://www.etsy.com/shop/FlorMontana
+
+───────────────────────────────────────────────────────────────
+
+© Universal RSVP Platform
+Profesyonel etkinlik yönetimi için modern çözüm.

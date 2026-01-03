@@ -1,0 +1,1381 @@
+═══════════════════════════════════════════════════════════════════════════════
+                    UNIVERSAL RSVP PLATFORM - KULLANIM KILAVUZU
+═══════════════════════════════════════════════════════════════════════════════
+
+                              TÜRKÇE VERSİYON
+                              
+═══════════════════════════════════════════════════════════════════════════════
+
+
+█ İÇİNDEKİLER
+═══════════════════════════════════════════════════════════════════════════════
+
+1. GİRİŞ VE GENEL BAKIŞ
+2. PLATFORM'A BAŞLANGIÇ
+3. YENİ EVENT OLUŞTURMA (Detaylı)
+4. RSVP FORMUNU ÖNİZLEME
+5. RSVP LİNKİNİ PAYLAŞMA
+6. DASHBOARD'A ERİŞİM VE YÖNETİM
+7. RSVP RESPONSE'LERİNİ GÖRÜNTÜLEME VE YÖNETİM
+8. QR KOD OLUŞTURMA VE KULLANIMI
+9. MİSAFİR LİSTESİNİ EXPORT ETME (CSV)
+10. EVENT'İ SİLME
+11. DAVETLİ PERSPEKTİFİ - RSVP FORMU DOLDURMA
+12. DARK/LIGHT MODE KULLANIMI
+13. MOBİL KULLANIM İPUÇLARI
+14. SIKÇA SORULAN SORULAR (SSS)
+15. TEKNİK BİLGİLER VE GÜVENLİK
+
+
+█ 1. GİRİŞ VE GENEL BAKIŞ
+═══════════════════════════════════════════════════════════════════════════════
+
+Universal RSVP Platform, her türlü etkinlik için profesyonel davetiye ve RSVP 
+(katılım onayı) yönetimi sağlayan modern bir web platformudur.
+
+▸ PLATFORM ÖZELLİKLERİ:
+  • Sınırsız event oluşturma
+  • Her türlü etkinlik tipi desteği (Düğün, Doğum Günü, Konferans, vb.)
+  • Benzersiz RSVP linkleri
+  • Canlı dashboard ile gerçek zamanlı takip
+  • QR kod oluşturma
+  • CSV export ile misafir listesi indirme
+  • Mobil ve desktop optimize tasarım
+  • Dark/Light mode desteği
+  • Kullanıcı kaydı gerektirmeyen basit sistem
+
+▸ KULLANIM AKIŞI ÖZETI:
+  1. Ana sayfadan yeni event oluştur
+  2. RSVP formunu önizle
+  3. Benzersiz RSVP linkini misafirlerinle paylaş
+  4. Dashboard'dan gelen cevapları takip et
+  5. QR kod veya CSV export kullanarak yönet
+
+
+█ 2. PLATFORM'A BAŞLANGIÇ
+═══════════════════════════════════════════════════════════════════════════════
+
+▸ ANA SAYFA ERİŞİMİ:
+  Web tarayıcınızdan platform URL'sine gidin.
+
+▸ ANA SAYFA ÜZERİNDEKİ 2 ANA SEKMEYİ GÖRECEKSİNİZ:
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │  [Create New Event]  │  [Host Login]                        │
+  └─────────────────────────────────────────────────────────────┘
+
+  1️⃣ "Create New Event" Sekmesi:
+     • İlk kez event oluşturacaklar için
+     • Tüm event detaylarını girin
+     • Yeni bir etkinlik başlatın
+
+  2️⃣ "Host Login" Sekmesi:
+     • Daha önce event oluşturmuş kullanıcılar için
+     • E-posta adresinizi girerek dashboard'a erişin
+     • Önceki eventlerinizi görüntüleyin
+
+▸ SAĞ ÜST KÖŞEDEKİ ÖZELLİKLER:
+  🌙/☀️ Dark/Light Mode Toggle: Tema değiştirme butonu
+
+
+█ 3. YENİ EVENT OLUŞTURMA (Detaylı)
+═══════════════════════════════════════════════════════════════════════════════
+
+"Create New Event" sekmesine tıklayın ve aşağıdaki formu doldurun:
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          EVENT INFORMATION                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+📌 1. EVENT TYPE (Etkinlik Tipi) - ZORUNLU
+   └─ Dropdown menüden seçin:
+      • Wedding (Düğün)
+      • Birthday Party (Doğum Günü)
+      • Anniversary (Yıldönümü)
+      • Baby Shower (Bebek Shower'ı)
+      • Corporate Event (Kurumsal Etkinlik)
+      • Conference (Konferans)
+      • Other (Diğer)
+   
+   💡 İPUCU: "Other" seçerseniz, herhangi bir özel etkinlik ekleyebilirsiniz.
+
+📌 2. EVENT NAME (Etkinlik Adı) - ZORUNLU
+   └─ Örnek: "Sarah & John's Wedding"
+   └─ Örnek: "Tech Summit 2024"
+   └─ Örnek: "Emma's 30th Birthday Bash"
+   
+   💡 İPUCU: Açıklayıcı ve kişisel bir isim seçin. Bu isim davetiyede 
+              büyük başlık olarak görünecek.
+
+📌 3. EVENT DATE & TIME (Tarih ve Saat) - ZORUNLU
+   └─ Datetime picker'dan tarih ve saat seçin
+   └─ Format: GG/AA/YYYY SS:DD
+   
+   💡 İPUCU: Gelecekteki bir tarih seçmeyi unutmayın.
+
+📌 4. LOCATION (Konum) - ZORUNLU
+   └─ Etkinlik mekanının tam adresi
+   └─ Örnek: "Grand Hotel Ballroom, İstanbul"
+   └─ Örnek: "Central Park, New York, NY"
+
+📌 5. LOCATION URL (Konum Linki) - OPSİYONEL
+   └─ Google Maps linki veya mekan websitesi
+   └─ Örnek: https://maps.google.com/...
+   
+   💡 İPUCU: Google Maps'ten konum linkini kopyalayıp buraya yapıştırın.
+              RSVP sayfasında "View on map →" butonu olarak görünecek.
+
+📌 6. COVER IMAGE (Kapak Fotoğrafı) - OPSİYONEL
+   └─ "Choose File" butonuna tıklayın
+   └─ Bilgisayarınızdan fotoğraf seçin
+   └─ Maksimum dosya boyutu: 5MB
+   └─ Desteklenen formatlar: JPG, PNG, GIF
+   
+   💡 İPUCU: 
+      • Yüksek kaliteli, geniş açı fotoğraflar en iyi görünür
+      • Dikey veya yatay fotoğraf fark etmez, orijinal ölçülerde gösterilir
+      • Event temasına uygun bir fotoğraf seçin
+      • Fotoğraf hem RSVP formunda hem de dashboard'da görünecek
+
+📌 7. DRESS CODE (Kıyafet Kodu) - OPSİYONEL
+   └─ Örnek: "Formal / Black Tie"
+   └─ Örnek: "Casual"
+   └─ Örnek: "Business Casual"
+
+📌 8. PROGRAM / NOTES (Program / Notlar) - OPSİYONEL
+   └─ Çok satırlı metin alanı
+   └─ Event programını veya özel notları buraya yazın
+   └─ Örnek:
+      "6:00 PM - Cocktail Reception
+       7:00 PM - Dinner
+       9:00 PM - Dancing"
+   
+   💡 İPUCU: Misafirlerinizin bilmesi gereken önemli detayları ekleyin.
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          HOST INFORMATION                                   │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+📌 9. YOUR NAME (Adınız) - ZORUNLU
+   └─ Event organizatörünün adı
+   └─ Örnek: "Sarah Johnson"
+
+📌 10. YOUR EMAIL (E-posta) - ZORUNLU
+    └─ Geçerli bir e-posta adresi
+    └─ Örnek: "sarah@example.com"
+    
+    ⚠️ ÖNEMLİ: Bu e-posta dashboard erişimi için kullanılacak.
+                Bu e-postayı saklamanız çok önemli!
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          FORM BUTONLARI                                     │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Formun en altında 2 buton bulunur:
+
+🔍 [Preview RSVP Form]
+   └─ Event'i oluşturmadan önce RSVP formunun nasıl görüneceğini önizleyin
+   └─ Davetlilerinizin göreceği tam sayfa açılır
+   └─ Kapatıp düzenleme yapabilirsiniz
+
+✅ [Create Event]
+   └─ Tüm bilgiler doğru girildiğinde bu butona tıklayın
+   └─ Event oluşturulur ve dashboard'a yönlendirilirsiniz
+
+⏳ OLUŞTURMA SIRASINDA:
+   • "Creating your event..." yazısı görünür
+   • Buton devre dışı kalır
+   • Fotoğraf yükleme işlemi tamamlanır
+   • İşlem 2-5 saniye sürer
+
+
+█ 4. RSVP FORMUNU ÖNİZLEME
+═══════════════════════════════════════════════════════════════════════════════
+
+Event oluştururken formu önizlemek için:
+
+▸ ADIMLAR:
+  1. Event bilgilerini doldurun
+  2. "Preview RSVP Form" butonuna tıklayın
+  3. Modal (popup) açılır ve tam RSVP formu görünür
+  4. Formu inceleyin:
+     • Event başlığı
+     • Kapak fotoğrafı (eklediyseniz)
+     • Event detayları (tarih, konum, vb.)
+     • RSVP formu alanları
+  5. Değişiklik yapmak isterseniz:
+     • Modal'ı kapatın
+     • Formu düzenleyin
+     • Tekrar önizleme yapın
+  6. Her şey uygunsa "Create Event" butonuna tıklayın
+
+💡 İPUCU: Önizleme yaparak davetlilerinizin tam olarak ne göreceğini 
+          anlarsınız ve son dakika düzeltmeleri yapabilirsiniz.
+
+
+█ 5. RSVP LİNKİNİ PAYLAŞMA
+═══════════════════════════════════════════════════════════════════════════════
+
+Event oluşturduktan sonra dashboard'ta benzersiz RSVP linkinizi bulacaksınız.
+
+▸ RSVP LİNK KARTI ("Share Invitation"):
+  ┌─────────────────────────────────────────────────────────┐
+  │  Share Invitation                                       │
+  │  Copy and share this link with your guests              │
+  │                                                          │
+  │  https://...app/rsvp/[benzersiz-slug]        [📋 Copy]  │
+  └─────────────────────────────────────────────────────────┘
+
+▸ LİNKİ KOPYALAMA:
+  1. Sağ taraftaki 📋 "Copy" butonuna tıklayın
+  2. Link otomatik olarak panoya kopyalanır
+  3. İstediğiniz yere yapıştırın
+
+▸ PAYLAŞIM YÖNTEMLERİ:
+  • E-posta ile gönderme
+  • WhatsApp mesajı
+  • SMS
+  • Sosyal medya (Instagram, Facebook, vb.)
+  • Dijital davetiye içerisine yerleştirme
+  • QR kod ile paylaşma (bkz. Bölüm 8)
+
+⚠️ GÜVENLİK NOTU:
+  • Her event için benzersiz bir link oluşturulur
+  • Link'e sahip olan herkes RSVP formu doldurabilir
+  • Link'i sadece davetlilerinizle paylaşın
+  • Davetli link'ten siteninize geri dönemez (izole edilmiş)
+
+
+█ 6. DASHBOARD'A ERİŞİM VE YÖNETİM
+═══════════════════════════════════════════════════════════════════════════════
+
+▸ DASHBOARD'A 2 ŞEKİLDE ERİŞİLİR:
+
+┌─ YÖNTMe 1: Event Oluşturduktan Hemen Sonra ─────────────────────────────────┐
+│  • "Create Event" butonuna tıkladıktan sonra otomatik yönlendirilirsiniz   │
+│  • URL: /dashboard/[event-slug]?email=[your-email]                          │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ YÖNTEM 2: Ana Sayfadan "Host Login" ile ───────────────────────────────────┐
+│  1. Ana sayfaya gidin                                                       │
+│  2. "Host Login" sekmesine tıklayın                                         │
+│  3. E-posta adresinizi girin (event oluştururken kullandığınız)            │
+│  4. "Access Dashboard" butonuna tıklayın                                    │
+│  5. En son oluşturduğunuz event'in dashboard'una yönlendirilirsiniz        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+⚠️ ÖNEMLİ: Dashboard URL'sini ve event oluştururken kullandığınız e-postayı
+            kaydedin. Bunlar dashboard'a yeniden erişim için gerekli!
+
+▸ DASHBOARD URL'Sİ NEREDE BULUNUR:
+  • Dashboard'a ilk girişte tarayıcı adres çubuğundan kopyalayın
+  • Bookmark (yer imi) olarak kaydedin
+  • Veya e-postanız ile Host Login yaparak erişin
+
+
+█ 7. RSVP RESPONSE'LERİNİ GÖRÜNTÜLEME VE YÖNETİM
+═══════════════════════════════════════════════════════════════════════════════
+
+Dashboard üzerinde 5 ana bölüm bulunur:
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          1. İSTATİSTİK KARTLARI                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Dashboard'ın en üstünde 5 istatistik kartı görürsünüz:
+
+┌──────────────┬──────────────┬──────────────┬──────────────┬──────────────┐
+│   Total      │   Attending  │ Not Attending│ Total Guests │  Plus Ones   │
+│  Responses   │              │              │              │              │
+│      12      │       8      │       4      │      25      │       5      │
+└──────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
+
+  📊 Total Responses: Toplam RSVP gönderimleri
+  ✅ Attending: Katılacak misafir sayısı
+  ❌ Not Attending: Katılmayacak misafir sayısı
+  👥 Total Guests: Toplam misafir sayısı (artı-birler dahil)
+  ➕ Plus Ones: Artı-bir getiren misafir sayısı
+
+💡 İPUCU: İstatistikler gerçek zamanlı güncellenir. Yeni RSVP geldiğinde
+          sayfayı yenileyin (refresh butonu).
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      2. SHARE INVITATION KARTI                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+RSVP linkinizi kopyalamak için (bkz. Bölüm 5)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          3. QR CODE KARTI                                   │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+QR kod görüntüleme ve indirme (bkz. Bölüm 8)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      4. GUEST RESPONSES TABLOSU                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Tüm RSVP cevaplarını içeren detaylı tablo:
+
+┌────────────┬──────────────┬─────────┬────────────────┬─────────────┬─────────┐
+│    Name    │    Status    │ Guests  │    Contact     │  Submitted  │ Actions │
+├────────────┼──────────────┼─────────┼────────────────┼─────────────┼─────────┤
+│ John Doe   │  Attending   │    2    │ john@email.com │ Jan 2, 2026 │   🗑️   │
+│ + Jane Doe │              │         │ +1 872738712   │             │         │
+├────────────┼──────────────┼─────────┼────────────────┼─────────────┼─────────┤
+│ Sarah Lee  │Not Attending │    1    │ sarah@mail.com │ Jan 3, 2026 │   🗑️   │
+└────────────┴──────────────┴─────────┴────────────────┴─────────────┴─────────┘
+
+▸ TABLO SÜTUNLARI:
+  • Name: Misafir adı (artı-bir varsa alt satırda gösterilir)
+  • Status: Attending (Yeşil) veya Not Attending (Gri)
+  • Guests: Toplam misafir sayısı
+  • Contact: E-posta ve telefon numarası
+  • Submitted: RSVP gönderim tarihi
+  • Actions: Silme butonu (🗑️)
+
+▸ RSVP SİLME İŞLEMİ:
+  1. İlgili satırın sağındaki 🗑️ (çöp kutusu) ikonuna tıklayın
+  2. Onay diyalogu açılır:
+     ┌─────────────────────────────────────────────┐
+     │  Are you sure?                              │
+     │                                             │
+     │  This will permanently delete the RSVP      │
+     │  from John Doe. This action cannot be       │
+     │  undone.                                    │
+     │                                             │
+     │         [Cancel]    [Delete RSVP]           │
+     └─────────────────────────────────────────────┘
+  3. "Delete RSVP" butonuna tıklayarak onaylayın
+  4. RSVP kalıcı olarak silinir
+  5. İstatistikler otomatik güncellenir
+
+  ⚠️ UYARI: Silme işlemi geri alınamaz!
+
+💡 İPUCU: Mobil ve desktop'ta aynı onay diyalogu çalışır.
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      5. EXPORT & REFRESH BUTONLARI                          │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Tablonun üstünde 2 buton bulunur:
+
+  📥 [Export Guest List (CSV)]
+     └─ Misafir listesini CSV dosyası olarak indirir (bkz. Bölüm 9)
+
+  🔄 [Refresh]
+     └─ Dashboard'ı yeniler ve en güncel verileri gösterir
+
+
+█ 8. QR KOD OLUŞTURMA VE KULLANIMI
+═══════════════════════════════════════════════════════════════════════════════
+
+Dashboard'ta "QR Code" kartı altında otomatik oluşturulan QR kodu göreceksiniz.
+
+▸ QR KOD NEDİR:
+  • RSVP linkinizi içeren taranabilir karekod
+  • Misafirler telefon kamerası ile tarayarak doğrudan RSVP formuna gidebilir
+  • Fiziksel davetiyelere yazdırılabilir
+
+▸ QR KODU GÖRÜNTÜLEME:
+  Dashboard'ta QR Code kartında otomatik olarak görünür.
+
+▸ QR KODU İNDİRME:
+  1. QR kodun altındaki "Download QR Code" butonuna tıklayın
+  2. PNG formatında QR kod bilgisayarınıza indirilir
+  3. Dosya adı: "rsvp-qr-code.png"
+
+▸ QR KOD KULLANIM ÖRNEKLERİ:
+  • Basılı davetiyelere ekleme
+  • Event posterlerine yerleştirme
+  • Masa kartlarına yazdırma
+  • Welcome board'a koyma
+  • Dijital davetiyelere ekleme
+
+💡 İPUCU: QR kodu yazdırırken en az 2cm x 2cm boyutunda olmalı ki
+          kolay taranabilsin.
+
+
+█ 9. MİSAFİR LİSTESİNİ EXPORT ETME (CSV)
+═══════════════════════════════════════════════════════════════════════════════
+
+Tüm RSVP cevaplarını CSV dosyası olarak indirebilirsiniz.
+
+▸ EXPORT İŞLEMİ:
+  1. Dashboard'ta "Export Guest List (CSV)" butonuna tıklayın
+  2. CSV dosyası otomatik olarak indirilir
+  3. Dosya adı: "event-rsvps-[event-name].csv"
+
+▸ CSV DOSYASI İÇERİĞİ:
+  Dosya aşağıdaki sütunları içerir:
+  • Name: Misafir adı
+  • Status: Katılım durumu
+  • Number of Guests: Misafir sayısı
+  • Plus One: Artı-bir var mı (Yes/No)
+  • Plus One Name: Artı-bir adı
+  • Email: E-posta
+  • Phone: Telefon
+  • Dietary Restrictions: Diyet kısıtlamaları
+  • Message: Misafirin mesajı
+  • Submitted: Gönderim tarihi
+
+▸ CSV DOSYASINI AÇMA:
+  • Microsoft Excel ile aç
+  • Google Sheets'e import et
+  • Numbers (Mac) ile aç
+  • Herhangi bir spreadsheet programı
+
+▸ KULLANIM ÖRNEKLERİ:
+  • Oturma planı hazırlama
+  • Yemek sayısı hesaplama
+  • İsim kartları yazdırma
+  • Telefon numaralarını toplama
+  • Misafir takibi
+
+
+█ 10. EVENT'İ SİLME
+═══════════════════════════════════════════════════════════════════════════════
+
+⚠️ NOT: Şu anda platform üzerinden event silme özelliği yoktur.
+         Event'ler kalıcıdır ve database'de saklanır.
+         
+▸ EVENT SİLMEK İÇİN:
+  • Platform yöneticisi ile iletişime geçin
+  • Veya event'i kullanmayı bırakın (link paylaşmayın)
+
+💡 İPUCU: Gelecek versiyonlarda event silme özelliği eklenecektir.
+
+
+█ 11. DAVETLİ PERSPEKTİFİ - RSVP FORMU DOLDURMA
+═══════════════════════════════════════════════════════════════════════════════
+
+Davetliler RSVP linkini aldıklarında şu adımları takip ederler:
+
+▸ RSVP LİNKİNE TIKLAMA:
+  1. Paylaşılan linke tıkla (örn: WhatsApp, e-posta'dan)
+  2. RSVP sayfası açılır
+  3. Sayfa tamamen izole edilmiştir:
+     • Ana siteye geri dönemezler
+     • Sadece RSVP formunu görürler
+     • Başka event'lere erişemezler
+
+▸ RSVP SAYFASI YAPISI:
+
+  ┌─────────────────────────────────────────────────────────┐
+  │                  [EVENT COVER IMAGE]                    │
+  │                                                          │
+  │              Sarah & John's Wedding                     │
+  │                                                          │
+  │  ┌────────────────────────────────────────────────┐    │
+  │  │  📅 Date & Time                                 │    │
+  │  │  Monday, December 6, 2027 at 7:00 PM           │    │
+  │  │                                                 │    │
+  │  │  📍 Location                                    │    │
+  │  │  Grand Hotel Ballroom                          │    │
+  │  │  View on map →                                 │    │
+  │  │                                                 │    │
+  │  │  👔 Dress Code                                  │    │
+  │  │  Formal / Black Tie                            │    │
+  │  │                                                 │    │
+  │  │  📋 Program                                     │    │
+  │  │  6:00 PM - Cocktail Reception                  │    │
+  │  │  7:00 PM - Dinner                              │    │
+  │  └────────────────────────────────────────────────┘    │
+  │                                                          │
+  │  ┌────────────────────────────────────────────────┐    │
+  │  │         RSVP FORM (Aşağıda detaylı)            │    │
+  │  └────────────────────────────────────────────────┘    │
+  └─────────────────────────────────────────────────────────┘
+
+▸ RSVP FORMU ALANLARI:
+
+┌─ 1. YOUR NAME (İsminiz) - ZORUNLU ──────────────────────────────────────────┐
+│  Davetlinin tam adı                                                         │
+│  Örnek: "John Doe"                                                          │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ 2. ATTENDANCE STATUS (Katılım Durumu) - ZORUNLU ───────────────────────────┐
+│  Radio button ile seçim:                                                    │
+│  ( ) Attending - Katılacağım                                                │
+│  ( ) Not Attending - Katılmayacağım                                         │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ 3. NUMBER OF GUESTS (Misafir Sayısı) - ZORUNLU ────────────────────────────┐
+│  Kaç kişi gelecek (kendiniz dahil)                                          │
+│  Number input (1-10 arası)                                                  │
+│  Örnek: 2 (siz + eşiniz)                                                    │
+│  Alt açıklama: "Including yourself and any plus ones"                      │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ 4. EMAIL (E-posta) - ZORUNLU ──────────────────────────────────────────────┐
+│  İletişim e-postası                                                         │
+│  Örnek: "john@example.com"                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ 5. PHONE (Telefon) - OPSİYONEL ────────────────────────────────────────────┐
+│  İletişim telefonu                                                          │
+│  Örnek: "+90 555 123 4567"                                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ 6. DIETARY RESTRICTIONS (Diyet Kısıtlamaları) - OPSİYONEL ─────────────────┐
+│  Örnek: "Vegetarian", "Vegan", "Gluten-free", "No pork"                    │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ 7. MESSAGE (Mesaj) - OPSİYONEL ────────────────────────────────────────────┐
+│  Event sahibine mesaj                                                       │
+│  Örnek: "Can't wait to celebrate with you!"                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+▸ FORMU GÖNDERME:
+  1. Tüm zorunlu alanları doldurun
+  2. "Submit RSVP" butonuna tıklayın
+  3. Form gönderilir ve başarı mesajı görünür:
+     ✅ "Thank you! Your RSVP has been submitted successfully."
+  4. Sayfa temizlenir, tekrar RSVP gönderilebilir
+
+💡 İPUCU: Aynı link'ten birden fazla misafir RSVP gönderebilir.
+          Sayfa yenilenebilir (refresh) ve form tekrar doldurulabilir.
+
+
+█ 12. DARK/LIGHT MODE KULLANIMI
+═══════════════════════════════════════════════════════════════════════════════
+
+Platform hem açık (light) hem de karanlık (dark) mod destekler.
+
+▸ TEMA DEĞİŞTİRME:
+  1. Sağ üst köşedeki 🌙/☀️ butonuna tıklayın
+  2. Tema anında değişir
+  3. Seçiminiz tarayıcıda kaydedilir (gelecek ziyaretler için)
+
+▸ TEMALAR:
+  • Light Mode: Beyaz arka plan, koyu yazı
+  • Dark Mode: Koyu arka plan, açık yazı
+
+💡 İPUCU: Dark mode göz yorgunluğunu azaltır, özellikle gece kullanımında
+          rahat bir deneyim sunar.
+
+
+█ 13. MOBİL KULLANIM İPUÇLARI
+═══════════════════════════════════════════════════════════════════════════════
+
+Platform mobil cihazlar için tamamen optimize edilmiştir.
+
+▸ MOBİL ÖZELLİKLER:
+  ✅ Responsive tasarım (tüm ekran boyutlarına uyumlu)
+  ✅ Touch-friendly butonlar (44x44px minimum)
+  ✅ Dikey scroll optimize
+  ✅ Hızlı yükleme
+  ✅ Mobilde zoom/pinch-to-zoom KAPALI
+  ✅ Sadece yukarı-aşağı scroll
+
+▸ MOBİLDE YAPILAMAYACAKLAR:
+  ❌ Yakınlaştırma (pinch-to-zoom)
+  ❌ Double-tap ile zoom
+  ✅ Sadece yukarı-aşağı scroll yapılabilir
+
+💡 İPUCU: Dashboard'ı mobilde kullanmak için sayfayı bookmark'layın.
+
+▸ QR KOD MOBİLDE TARAMA:
+  1. Telefon kamerasını aç
+  2. QR kodu kare içine al
+  3. Ekranda çıkan bildirimeye tıkla
+  4. RSVP formu açılır
+
+
+█ 14. SIKÇA SORULAN SORULAR (SSS)
+═══════════════════════════════════════════════════════════════════════════════
+
+❓ Event oluşturduktan sonra detayları değiştirebilir miyim?
+   └─ Şu anda hayır. Event oluşturmadan önce tüm bilgileri dikkatlice kontrol
+      edin. Gelecek versiyonlarda düzenleme özelliği eklenecek.
+
+❓ Aynı e-posta ile birden fazla event oluşturabilir miyim?
+   └─ Evet, sınırsız event oluşturabilirsiniz. Her event benzersiz bir link
+      ve dashboard'a sahip olur.
+
+❓ Dashboard'a şifreli giriş var mı?
+   └─ Hayır, şifre sistemi yok. Sadece e-posta adresiniz ve dashboard URL'si
+      gerekli. Bu URL'yi kimseyle paylaşmayın.
+
+❓ RSVP linki ne kadar süre geçerli?
+   └─ RSVP linkleri kalıcıdır, süre sınırı yoktur. Event tarihinden sonra bile
+      çalışmaya devam eder.
+
+❓ Misafir sayısını sınırlayabilir miyim?
+   └─ Hayır, şu anda misafir sayısı sınırlama özelliği yok. Sınırsız RSVP
+      gelebilir.
+
+❓ RSVP formunda özel alanlar ekleyebilir miyim?
+   └─ Hayır, form alanları sabittir. Mevcut alanlar: name, status, guests,
+      email, phone, dietary restrictions, message.
+
+❓ Aynı kişi birden fazla RSVP gönderebilir mi?
+   └─ Evet, sistem bunu engellemez. Aynı isim/e-posta ile birden fazla kayıt
+      gelebilir. Dashboard'tan duplikaları elle silebilirsiniz.
+
+❓ RSVP bildirimleri geliyor mu (e-posta/SMS)?
+   └─ Hayır, otomatik bildirim sistemi yok. Düzenli olarak dashboard'u kontrol
+      etmelisiniz veya refresh butonunu kullanmalısınız.
+
+❓ Event'i şu anda iptal etmek istiyorum, ne yapmalıyım?
+   └─ RSVP linkini paylaşmayı durdurun. Dashboard'tan gelen cevapları silebilir
+      veya event'i kullanmayı bırakabilirsiniz.
+
+❓ Fotoğraf yüklerken hata alıyorum, ne yapmalıyım?
+   └─ • Dosya boyutunun 5MB'den küçük olduğundan emin olun
+      • JPG, PNG veya GIF formatında olmalı
+      • İnternet bağlantınızı kontrol edin
+      • Tarayıcınızı yenileyin ve tekrar deneyin
+
+❓ CSV export'ta Türkçe karakterler bozuk görünüyor?
+   └─ Excel'de dosyayı açarken "Get Data" > "From Text/CSV" seçin ve
+      encoding'i "UTF-8" olarak ayarlayın.
+
+❓ Mobilde zoom neden çalışmıyor?
+   └─ Bu kasıtlı bir özellik. Mobil deneyimi optimize etmek için zoom
+      devre dışı bırakıldı. Sadece yukarı-aşağı scroll yapabilirsiniz.
+
+
+█ 15. TEKNİK BİLGİLER VE GÜVENLİK
+═══════════════════════════════════════════════════════════════════════════════
+
+▸ TEKNOLOJİ STACK:
+  • Frontend: Next.js 16 (React 19)
+  • Styling: Tailwind CSS v4
+  • Database: Supabase (PostgreSQL)
+  • File Storage: Vercel Blob
+  • Hosting: Vercel
+
+▸ GÜVENLİK ÖZELLİKLERİ:
+  ✅ HTTPS şifrelemesi (tüm veri aktarımı güvenli)
+  ✅ SQL injection koruması (parameterized queries)
+  ✅ Row Level Security (RLS) - Supabase
+  ✅ XSS koruması (input sanitization)
+  ✅ CSRF koruması
+  ✅ Benzersiz slug'lar (tahmin edilemez URL'ler)
+
+▸ VERİ SAKLAMA:
+  • Event bilgileri: Supabase database (şifrelenmiş)
+  • Fotoğraflar: Vercel Blob storage (CDN)
+  • Kişisel veriler: GDPR/KVKK uyumlu
+
+▸ GİZLİLİK:
+  • Kullanıcı kaydı yok, şifre saklanmıyor
+  • E-posta adresleri event yönetimine özel
+  • RSVP verileri sadece event sahibi görebilir
+  • Üçüncü taraflarla veri paylaşımı YOK
+
+▸ TARAYICI DESTEĞİ:
+  ✅ Google Chrome (önerilen)
+  ✅ Safari
+  ✅ Firefox
+  ✅ Microsoft Edge
+  ✅ Mobil tarayıcılar (iOS Safari, Chrome Mobile)
+
+▸ PERFORMANS:
+  • Sayfa yükleme: <2 saniye
+  • Fotoğraf yükleme: 2-5 saniye (boyuta göre)
+  • RSVP gönderimi: <1 saniye
+  • Dashboard yenileme: <1 saniye
+
+▸ DESTEK VE İLETİŞİM:
+  • Teknik sorunlar için: support@yourplatform.com
+  • Feature requests: feedback@yourplatform.com
+  • Acil durumlar için: emergency@yourplatform.com
+
+═══════════════════════════════════════════════════════════════════════════════
+                          KULLANIM KILAVUZU SONU
+                              TÜRKÇE VERSİYON
+═══════════════════════════════════════════════════════════════════════════════
+
+
+
+
+═══════════════════════════════════════════════════════════════════════════════
+                    UNIVERSAL RSVP PLATFORM - USER GUIDE
+═══════════════════════════════════════════════════════════════════════════════
+
+                              ENGLISH VERSION
+                              
+═══════════════════════════════════════════════════════════════════════════════
+
+
+█ TABLE OF CONTENTS
+═══════════════════════════════════════════════════════════════════════════════
+
+1. INTRODUCTION AND OVERVIEW
+2. GETTING STARTED WITH THE PLATFORM
+3. CREATING A NEW EVENT (Detailed)
+4. PREVIEWING THE RSVP FORM
+5. SHARING YOUR RSVP LINK
+6. ACCESSING AND MANAGING YOUR DASHBOARD
+7. VIEWING AND MANAGING RSVP RESPONSES
+8. GENERATING AND USING QR CODES
+9. EXPORTING GUEST LIST (CSV)
+10. DELETING AN EVENT
+11. GUEST PERSPECTIVE - FILLING OUT RSVP FORM
+12. USING DARK/LIGHT MODE
+13. MOBILE USAGE TIPS
+14. FREQUENTLY ASKED QUESTIONS (FAQ)
+15. TECHNICAL INFORMATION AND SECURITY
+
+
+█ 1. INTRODUCTION AND OVERVIEW
+═══════════════════════════════════════════════════════════════════════════════
+
+Universal RSVP Platform is a modern web application that provides professional
+invitation and RSVP (Répondez s'il vous plaît) management for all types of events.
+
+▸ PLATFORM FEATURES:
+  • Unlimited event creation
+  • Support for all event types (Wedding, Birthday, Conference, etc.)
+  • Unique RSVP links
+  • Real-time tracking with live dashboard
+  • QR code generation
+  • CSV export for guest list download
+  • Mobile and desktop optimized design
+  • Dark/Light mode support
+  • Simple system requiring no user registration
+
+▸ USAGE FLOW SUMMARY:
+  1. Create a new event from the home page
+  2. Preview the RSVP form
+  3. Share the unique RSVP link with your guests
+  4. Track incoming responses from the dashboard
+  5. Manage using QR code or CSV export
+
+
+█ 2. GETTING STARTED WITH THE PLATFORM
+═══════════════════════════════════════════════════════════════════════════════
+
+▸ ACCESSING THE HOME PAGE:
+  Navigate to the platform URL in your web browser.
+
+▸ YOU'LL SEE 2 MAIN TABS ON THE HOME PAGE:
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │  [Create New Event]  │  [Host Login]                        │
+  └─────────────────────────────────────────────────────────────┘
+
+  1️⃣ "Create New Event" Tab:
+     • For first-time event creators
+     • Enter all event details
+     • Start a new event
+
+  2️⃣ "Host Login" Tab:
+     • For users who have previously created events
+     • Access your dashboard by entering your email address
+     • View your previous events
+
+▸ TOP RIGHT CORNER FEATURES:
+  🌙/☀️ Dark/Light Mode Toggle: Theme switching button
+
+
+█ 3. CREATING A NEW EVENT (Detailed)
+═══════════════════════════════════════════════════════════════════════════════
+
+Click on the "Create New Event" tab and fill out the following form:
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          EVENT INFORMATION                                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+📌 1. EVENT TYPE - REQUIRED
+   └─ Select from dropdown menu:
+      • Wedding
+      • Birthday Party
+      • Anniversary
+      • Baby Shower
+      • Corporate Event
+      • Conference
+      • Other
+   
+   💡 TIP: If you select "Other", you can add any custom event.
+
+📌 2. EVENT NAME - REQUIRED
+   └─ Example: "Sarah & John's Wedding"
+   └─ Example: "Tech Summit 2024"
+   └─ Example: "Emma's 30th Birthday Bash"
+   
+   💡 TIP: Choose a descriptive and personal name. This name will appear
+           as the main heading on the invitation.
+
+📌 3. EVENT DATE & TIME - REQUIRED
+   └─ Select date and time from datetime picker
+   └─ Format: MM/DD/YYYY HH:MM
+   
+   💡 TIP: Don't forget to select a future date.
+
+📌 4. LOCATION - REQUIRED
+   └─ Full address of the event venue
+   └─ Example: "Grand Hotel Ballroom, Istanbul"
+   └─ Example: "Central Park, New York, NY"
+
+📌 5. LOCATION URL - OPTIONAL
+   └─ Google Maps link or venue website
+   └─ Example: https://maps.google.com/...
+   
+   💡 TIP: Copy the location link from Google Maps and paste it here.
+           It will appear as a "View on map →" button on the RSVP page.
+
+📌 6. COVER IMAGE - OPTIONAL
+   └─ Click the "Choose File" button
+   └─ Select a photo from your computer
+   └─ Maximum file size: 5MB
+   └─ Supported formats: JPG, PNG, GIF
+   
+   💡 TIP: 
+      • High-quality, wide-angle photos look best
+      • Vertical or horizontal photos both work, shown in original dimensions
+      • Choose a photo that matches your event theme
+      • The photo will appear on both the RSVP form and dashboard
+
+📌 7. DRESS CODE - OPTIONAL
+   └─ Example: "Formal / Black Tie"
+   └─ Example: "Casual"
+   └─ Example: "Business Casual"
+
+📌 8. PROGRAM / NOTES - OPTIONAL
+   └─ Multi-line text area
+   └─ Write your event program or special notes here
+   └─ Example:
+      "6:00 PM - Cocktail Reception
+       7:00 PM - Dinner
+       9:00 PM - Dancing"
+   
+   💡 TIP: Add important details your guests should know.
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          HOST INFORMATION                                   │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+📌 9. YOUR NAME - REQUIRED
+   └─ Event organizer's name
+   └─ Example: "Sarah Johnson"
+
+📌 10. YOUR EMAIL - REQUIRED
+    └─ A valid email address
+    └─ Example: "sarah@example.com"
+    
+    ⚠️ IMPORTANT: This email will be used for dashboard access.
+                  It's crucial to save this email!
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          FORM BUTTONS                                       │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+At the bottom of the form, you'll find 2 buttons:
+
+🔍 [Preview RSVP Form]
+   └─ Preview how the RSVP form will look before creating the event
+   └─ Opens a full page showing what guests will see
+   └─ You can close it and make edits
+
+✅ [Create Event]
+   └─ Click this button when all information is correctly entered
+   └─ Event is created and you're redirected to the dashboard
+
+⏳ DURING CREATION:
+   • "Creating your event..." message appears
+   • Button is disabled
+   • Photo upload process completes
+   • Process takes 2-5 seconds
+
+
+█ 4. PREVIEWING THE RSVP FORM
+═══════════════════════════════════════════════════════════════════════════════
+
+To preview the form while creating an event:
+
+▸ STEPS:
+  1. Fill in the event information
+  2. Click the "Preview RSVP Form" button
+  3. A modal (popup) opens showing the full RSVP form
+  4. Review the form:
+     • Event title
+     • Cover photo (if added)
+     • Event details (date, location, etc.)
+     • RSVP form fields
+  5. If you want to make changes:
+     • Close the modal
+     • Edit the form
+     • Preview again
+  6. When everything looks good, click "Create Event"
+
+💡 TIP: Previewing helps you see exactly what your guests will see
+        and allows for last-minute corrections.
+
+
+█ 5. SHARING YOUR RSVP LINK
+═══════════════════════════════════════════════════════════════════════════════
+
+After creating an event, you'll find your unique RSVP link on the dashboard.
+
+▸ RSVP LINK CARD ("Share Invitation"):
+  ┌─────────────────────────────────────────────────────────────┐
+  │  Share Invitation                                           │
+  │  Copy and share this link with your guests                  │
+  │                                                             │
+  │  https://...app/rsvp/[unique-slug]              [📋 Copy]  │
+  └─────────────────────────────────────────────────────────────┘
+
+▸ COPYING THE LINK:
+  1. Click the 📋 "Copy" button on the right
+  2. Link is automatically copied to clipboard
+  3. Paste it wherever you want
+
+▸ SHARING METHODS:
+  • Send via email
+  • WhatsApp message
+  • SMS
+  • Social media (Instagram, Facebook, etc.)
+  • Embed in digital invitations
+  • Share via QR code (see Section 8)
+
+⚠️ SECURITY NOTE:
+  • A unique link is created for each event
+  • Anyone with the link can fill out the RSVP form
+  • Only share the link with your invitees
+  • Guests cannot navigate back to your site from the link (isolated)
+
+
+█ 6. ACCESSING AND MANAGING YOUR DASHBOARD
+═══════════════════════════════════════════════════════════════════════════════
+
+▸ 2 WAYS TO ACCESS THE DASHBOARD:
+
+┌─ METHOD 1: Immediately After Creating Event ────────────────────────────────┐
+│  • You're automatically redirected after clicking "Create Event"           │
+│  • URL: /dashboard/[event-slug]?email=[your-email]                         │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ METHOD 2: From Home Page via "Host Login" ─────────────────────────────────┐
+│  1. Go to the home page                                                     │
+│  2. Click on the "Host Login" tab                                           │
+│  3. Enter your email address (the one you used when creating the event)    │
+│  4. Click the "Access Dashboard" button                                     │
+│  5. You're redirected to your most recently created event's dashboard      │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+⚠️ IMPORTANT: Save your dashboard URL and the email you used when creating
+              the event. You'll need these to access your dashboard again!
+
+▸ WHERE TO FIND YOUR DASHBOARD URL:
+  • Copy it from the browser address bar on first access
+  • Save it as a bookmark
+  • Or access it via Host Login with your email
+
+
+█ 7. VIEWING AND MANAGING RSVP RESPONSES
+═══════════════════════════════════════════════════════════════════════════════
+
+The dashboard has 5 main sections:
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          1. STATISTICS CARDS                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+At the top of the dashboard, you'll see 5 statistics cards:
+
+┌──────────────┬──────────────┬──────────────┬──────────────┬──────────────┐
+│   Total      │   Attending  │ Not Attending│ Total Guests │  Plus Ones   │
+│  Responses   │              │              │              │              │
+│      12      │       8      │       4      │      25      │       5      │
+└──────────────┴──────────────┴──────────────┴──────────────┴──────────────┘
+
+  📊 Total Responses: Total RSVP submissions
+  ✅ Attending: Number of guests attending
+  ❌ Not Attending: Number of guests not attending
+  👥 Total Guests: Total number of guests (including plus ones)
+  ➕ Plus Ones: Number of guests bringing plus ones
+
+💡 TIP: Statistics update in real-time. When a new RSVP comes in,
+        refresh the page (refresh button).
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      2. SHARE INVITATION CARD                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+For copying your RSVP link (see Section 5)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                          3. QR CODE CARD                                    │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+QR code display and download (see Section 8)
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      4. GUEST RESPONSES TABLE                               │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Detailed table containing all RSVP responses:
+
+┌────────────┬──────────────┬─────────┬────────────────┬─────────────┬─────────┐
+│    Name    │    Status    │ Guests  │    Contact     │  Submitted  │ Actions │
+├────────────┼──────────────┼─────────┼────────────────┼─────────────┼─────────┤
+│ John Doe   │  Attending   │    2    │ john@email.com │ Jan 2, 2026 │   🗑️   │
+│ + Jane Doe │              │         │ +1 872738712   │             │         │
+├────────────┼──────────────┼─────────┼────────────────┼─────────────┼─────────┤
+│ Sarah Lee  │Not Attending │    1    │ sarah@mail.com │ Jan 3, 2026 │   🗑️   │
+└────────────┴──────────────┴─────────┴────────────────┴─────────────┴─────────┘
+
+▸ TABLE COLUMNS:
+  • Name: Guest name (plus one shown on separate line if applicable)
+  • Status: Attending (Green) or Not Attending (Gray)
+  • Guests: Total number of guests
+  • Contact: Email and phone number
+  • Submitted: RSVP submission date
+  • Actions: Delete button (🗑️)
+
+▸ DELETING AN RSVP:
+  1. Click the 🗑️ (trash can) icon on the right side of the relevant row
+  2. A confirmation dialog opens:
+     ┌─────────────────────────────────────────────┐
+     │  Are you sure?                              │
+     │                                             │
+     │  This will permanently delete the RSVP      │
+     │  from John Doe. This action cannot be       │
+     │  undone.                                    │
+     │                                             │
+     │         [Cancel]    [Delete RSVP]           │
+     └─────────────────────────────────────────────┘
+  3. Confirm by clicking the "Delete RSVP" button
+  4. The RSVP is permanently deleted
+  5. Statistics automatically update
+
+  ⚠️ WARNING: Deletion cannot be undone!
+
+💡 TIP: The same confirmation dialog works on both mobile and desktop.
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                      5. EXPORT & REFRESH BUTTONS                            │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+Above the table, you'll find 2 buttons:
+
+  📥 [Export Guest List (CSV)]
+     └─ Downloads the guest list as a CSV file (see Section 9)
+
+  🔄 [Refresh]
+     └─ Refreshes the dashboard and shows the most current data
+
+
+█ 8. GENERATING AND USING QR CODES
+═══════════════════════════════════════════════════════════════════════════════
+
+On the dashboard, you'll see an automatically generated QR code under the 
+"QR Code" card.
+
+▸ WHAT IS A QR CODE:
+  • A scannable barcode containing your RSVP link
+  • Guests can scan it with their phone camera to go directly to the RSVP form
+  • Can be printed on physical invitations
+
+▸ VIEWING THE QR CODE:
+  It automatically appears in the QR Code card on the dashboard.
+
+▸ DOWNLOADING THE QR CODE:
+  1. Click the "Download QR Code" button below the QR code
+  2. The QR code is downloaded to your computer in PNG format
+  3. File name: "rsvp-qr-code.png"
+
+▸ QR CODE USAGE EXAMPLES:
+  • Add to printed invitations
+  • Place on event posters
+  • Print on table cards
+  • Add to welcome boards
+  • Include in digital invitations
+
+💡 TIP: When printing the QR code, it should be at least 2cm x 2cm in size
+        for easy scanning.
+
+
+█ 9. EXPORTING GUEST LIST (CSV)
+═══════════════════════════════════════════════════════════════════════════════
+
+You can download all RSVP responses as a CSV file.
+
+▸ EXPORT PROCESS:
+  1. Click the "Export Guest List (CSV)" button on the dashboard
+  2. The CSV file is automatically downloaded
+  3. File name: "event-rsvps-[event-name].csv"
+
+▸ CSV FILE CONTENTS:
+  The file contains the following columns:
+  • Name: Guest name
+  • Status: Attendance status
+  • Number of Guests: Number of guests
+  • Plus One: Has plus one (Yes/No)
+  • Plus One Name: Plus one name
+  • Email: Email address
+  • Phone: Phone number
+  • Dietary Restrictions: Dietary restrictions
+  • Message: Guest's message
+  • Submitted: Submission date
+
+▸ OPENING THE CSV FILE:
+  • Open with Microsoft Excel
+  • Import to Google Sheets
+  • Open with Numbers (Mac)
+  • Any spreadsheet program
+
+▸ USAGE EXAMPLES:
+  • Create seating charts
+  • Calculate meal counts
+  • Print name cards
+  • Collect phone numbers
+  • Track guests
+
+
+█ 10. DELETING AN EVENT
+═══════════════════════════════════════════════════════════════════════════════
+
+⚠️ NOTE: Currently, there is no event deletion feature on the platform.
+         Events are permanent and stored in the database.
+         
+▸ TO DELETE AN EVENT:
+  • Contact the platform administrator
+  • Or stop using the event (don't share the link)
+
+💡 TIP: Event deletion feature will be added in future versions.
+
+
+█ 11. GUEST PERSPECTIVE - FILLING OUT RSVP FORM
+═══════════════════════════════════════════════════════════════════════════════
+
+When guests receive the RSVP link, they follow these steps:
+
+▸ CLICKING THE RSVP LINK:
+  1. Click the shared link (e.g., from WhatsApp, email)
+  2. The RSVP page opens
+  3. The page is completely isolated:
+     • They cannot navigate back to the main site
+     • They only see the RSVP form
+     • They cannot access other events
+
+▸ RSVP PAGE STRUCTURE:
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │                  [EVENT COVER IMAGE]                        │
+  │                                                             │
+  │              Sarah & John's Wedding                         │
+  │                                                             │
+  │  ┌────────────────────────────────────────────────────┐    │
+  │  │  📅 Date & Time                                     │    │
+  │  │  Monday, December 6, 2027 at 7:00 PM               │    │
+  │  │                                                     │    │
+  │  │  📍 Location                                        │    │
+  │  │  Grand Hotel Ballroom                              │    │
+  │  │  View on map →                                     │    │
+  │  │                                                     │    │
+  │  │  👔 Dress Code                                      │    │
+  │  │  Formal / Black Tie                                │    │
+  │  │                                                     │    │
+  │  │  📋 Program                                         │    │
+  │  │  6:00 PM - Cocktail Reception                      │    │
+  │  │  7:00 PM - Dinner                                  │    │
+  │  └────────────────────────────────────────────────────┘    │
+  │                                                             │
+  │  ┌────────────────────────────────────────────────────┐    │
+  │  │         RSVP FORM (Details below)                  │    │
+  │  └────────────────────────────────────────────────────┘    │
+  └─────────────────────────────────────────────────────────────┘
+
+▸ RSVP FORM FIELDS:
+
+┌─ 1. YOUR NAME - REQUIRED ───────────────────────────────────────────────────┐
+│  Guest's full name                                                          │
+│  Example: "John Doe"                                                        │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ 2. ATTENDANCE STATUS - REQUIRED ───────────────────────────────────────────┐
+│  Radio button selection:                                                    │
+│  ( ) Attending - I will attend                                              │
+│  ( ) Not Attending - I won't attend                                         │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ 3. NUMBER OF GUESTS - REQUIRED ────────────────────────────────────────────┐
+│  How many people will attend (including yourself)                           │
+│  Number input (1-10 range)                                                  │
+│  Example: 2 (you + your spouse)                                             │
+│  Subtitle: "Including yourself and any plus ones"                           │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ 4. EMAIL - REQUIRED ───────────────────────────────────────────────────────┐
+│  Contact email                                                              │
+│  Example: "john@example.com"                                                │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ 5. PHONE - OPTIONAL ───────────────────────────────────────────────────────┐
+│  Contact phone                                                              │
+│  Example: "+1 555 123 4567"                                                 │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ 6. DIETARY RESTRICTIONS - OPTIONAL ────────────────────────────────────────┐
+│  Example: "Vegetarian", "Vegan", "Gluten-free", "No pork"                  │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+┌─ 7. MESSAGE - OPTIONAL ─────────────────────────────────────────────────────┐
+│  Message to the event host                                                  │
+│  Example: "Can't wait to celebrate with you!"                              │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+▸ SUBMITTING THE FORM:
+  1. Fill in all required fields
+  2. Click the "Submit RSVP" button
+  3. Form is submitted and a success message appears:
+     ✅ "Thank you! Your RSVP has been submitted successfully."
+  4. Page clears, another RSVP can be submitted
+
+💡 TIP: Multiple guests can submit RSVPs from the same link.
+        The page can be refreshed and the form filled out again.
+
+
+█ 12. USING DARK/LIGHT MODE
+═══════════════════════════════════════════════════════════════════════════════
+
+The platform supports both light and dark modes.
+
+▸ CHANGING THEME:
+  1. Click the 🌙/☀️ button in the top right corner
+  2. Theme changes instantly
+  3. Your choice is saved in the browser (for future visits)
+
+▸ THEMES:
+  • Light Mode: White background, dark text
+  • Dark Mode: Dark background, light text
+
+💡 TIP: Dark mode reduces eye strain, especially comfortable for nighttime use.
+
+
+█ 13. MOBILE USAGE TIPS
+═══════════════════════════════════════════════════════════════════════════════
+
+The platform is fully optimized for mobile devices.
+
+▸ MOBILE FEATURES:
+  ✅ Responsive design (adapts to all screen sizes)
+  ✅ Touch-friendly buttons (44x44px minimum)
+  ✅ Vertical scroll optimized
+  ✅ Fast loading
+  ✅ Mobile zoom/pinch-to-zoom DISABLED
+  ✅ Only vertical scroll
+
+▸ NOT POSSIBLE ON MOBILE:
+  ❌ Zoom (pinch-to-zoom)
+  ❌ Double-tap to zoom
+  ✅ Only vertical scroll is possible
+
+💡 TIP: Bookmark the dashboard for mobile use.
+
+▸ SCANNING QR CODE ON MOBILE:
+  1. Open phone camera
+  2. Frame the QR code
+  3. Click on the notification that appears on screen
+  4. RSVP form opens
+
+
+█ 14. FREQUENTLY ASKED QUESTIONS (FAQ)
+═══════════════════════════════════════════════════════════════════════════════
+
+❓ Can I change event details after creating it?
+   └─ Currently no. Carefully check all information before creating the event.
+      Edit feature will be added in future versions.
+
+❓ Can I create multiple events with the same email?
+   └─ Yes, you can create unlimited events. Each event has a unique link
+      and dashboard.
+
+❓ Is there password-protected dashboard access?
+   └─ No, there's no password system. Only your email address and dashboard URL
+      are needed. Don't share this URL with anyone.
+
+❓ How long is the RSVP link valid?
+   └─ RSVP links are permanent, with no time limit. They continue to work
+      even after the event date.
+
+❓ Can I limit the number of guests?
+   └─ No, there's currently no guest limit feature. Unlimited RSVPs can come in.
+
+❓ Can I add custom fields to the RSVP form?
+   └─ No, form fields are fixed. Available fields: name, status, guests,
+      email, phone, dietary restrictions, message.
+
+❓ Can the same person submit multiple RSVPs?
+   └─ Yes, the system doesn't prevent this. Multiple entries can come in with
+      the same name/email. You can manually delete duplicates from the dashboard.
+
+❓ Do I receive RSVP notifications (email/SMS)?
+   └─ No, there's no automatic notification system. You should regularly check
+      the dashboard or use the refresh button.
+
+❓ I want to cancel the event now, what should I do?
+   └─ Stop sharing the RSVP link. You can delete responses from the dashboard
+      or stop using the event.
+
+❓ I'm getting an error when uploading a photo, what should I do?
+   └─ • Make sure the file size is less than 5MB
+      • Must be in JPG, PNG, or GIF format
+      • Check your internet connection
+      • Refresh your browser and try again
+
+❓ Turkish characters look broken in CSV export?
+   └─ In Excel, open the file using "Get Data" > "From Text/CSV" and
+      set encoding to "UTF-8".
+
+❓ Why doesn't zoom work on mobile?
+   └─ This is an intentional feature. To optimize mobile experience, zoom
+      is disabled. You can only scroll vertically.
+
+
+█ 15. TECHNICAL INFORMATION AND SECURITY
+═══════════════════════════════════════════════════════════════════════════════
+
+▸ TECHNOLOGY STACK:
+  • Frontend: Next.js 16 (React 19)
+  • Styling: Tailwind CSS v4
+  • Database: Supabase (PostgreSQL)
+  • File Storage: Vercel Blob
+  • Hosting: Vercel
+
+▸ SECURITY FEATURES:
+  ✅ HTTPS encryption (all data transfer is secure)
+  ✅ SQL injection protection (parameterized queries)
+  ✅ Row Level Security (RLS) - Supabase
+  ✅ XSS protection (input sanitization)
+  ✅ CSRF protection
+  ✅ Unique slugs (unpredictable URLs)
+
+▸ DATA STORAGE:
+  • Event information: Supabase database (encrypted)
+  • Photos: Vercel Blob storage (CDN)
+  • Personal data: GDPR/KVKK compliant
+
+▸ PRIVACY:
+  • No user registration, no password storage
+  • Email addresses are event-specific
+  • RSVP data visible only to event owner
+  • NO data sharing with third parties
+
+▸ BROWSER SUPPORT:
+  ✅ Google Chrome (recommended)
+  ✅ Safari
+  ✅ Firefox
+  ✅ Microsoft Edge
+  ✅ Mobile browsers (iOS Safari, Chrome Mobile)
+
+▸ PERFORMANCE:
+  • Page load: <2 seconds
+  • Photo upload: 2-5 seconds (depending on size)
+  • RSVP submission: <1 second
+  • Dashboard refresh: <1 second
+
+▸ SUPPORT AND CONTACT:
+  • For technical issues: support@yourplatform.com
+  • Feature requests: feedback@yourplatform.com
+  • Emergencies: emergency@yourplatform.com
+
+═══════════════════════════════════════════════════════════════════════════════
+                          END OF USER GUIDE
+                              ENGLISH VERSION
+═══════════════════════════════════════════════════════════════════════════════
